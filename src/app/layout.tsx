@@ -39,6 +39,21 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+
+        {/* scripts del design/home-02.html */}
+        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="/js/carousel.js"></script>
+        <script type="text/javascript" src="/js/bootstrap-select.min.js"></script>
+        <script type="text/javascript" src="/js/lazysize.min.js"></script>
+        <script type="text/javascript" src="/js/count-down.js"></script>
+        <script type="text/javascript" src="/js/wow.min.js"></script>
+        <script type="text/javascript" src="/js/multiple-modal.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+
+        {/* scripts del design/home-02.html */}
+
       </body>
     </html>
   );
