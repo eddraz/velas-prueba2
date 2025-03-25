@@ -2,12 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
 import "./globals.css";
-import "/public/css/animate.css";
-import "/public/css/bootstrap.min.css";
-import "/public/css/styles.css";
-import "/public/css/swiper-bundle.min.css";
-import "/public/fonts/font-icons.css";
-import "/public/fonts/fonts.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +29,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" href="/css/animate.css" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
+        <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="/fonts/font-icons.css" />
+        <link rel="stylesheet" href="/fonts/fonts.css" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
 
